@@ -6,6 +6,7 @@ from model import preprocess_img, predict_result
 
 # Instantiating flask app
 app = Flask(__name__)
+unused_variable = 100
 
 
 # Home route

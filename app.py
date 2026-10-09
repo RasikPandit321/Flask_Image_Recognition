@@ -8,6 +8,7 @@ from model import preprocess_img, predict_result
 app = Flask(__name__)
 
 
+
 # Home route
 @app.route("/")
 def main():

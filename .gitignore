@@ -1,0 +1,15 @@
+# Python virtual environment
+.venv/
+
+# Visual Studio temporary files
+.vs/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Python testing cache
+.pytest_cache/
+
+# Pylint cache
+.pylint.d/

@@ -7,7 +7,3 @@ def test_homepage_loads(client):
 
     assert response.status_code == 200
     assert b"Hand Sign Digit" in response.data
-
-def test_intentional_failure():
-    """Demonstrate that CI detects a failing pytest test."""
-    assert 1 == 2
